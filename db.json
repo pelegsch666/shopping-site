@@ -1,0 +1,48 @@
+{
+  "header": {
+      "title": "My Tea Shop"
+  },
+  "products": [
+      {
+          "name": "Black Coffee",
+          "price": 20,
+          "image": {
+              "src": "http://www.google.com",
+              "alt": "black coffee image"
+          },
+          "amount": 99,
+          "description": "A very strong coffee"
+      },
+      {
+          "name": "Turkish Coffee",
+          "price": 59,
+          "image": {
+              "src": "http://www.google.com",
+              "alt": "black coffee image"
+          },
+          "amount": 99,
+          "description": "A very strong coffee"
+      },
+      {
+          "name": "Black Tea",
+          "price": 24,
+          "image": {
+              "src": "http://www.google.com",
+              "alt": "black coffee image"
+          },
+          "amount": 99,
+          "description": "A very strong coffee"
+      },
+      {
+          "name": "Green Tea",
+          "price": 6,
+          "image": {
+              "src": "http://www.google.com",
+              "alt": "black coffee image"
+          },
+          "amount": 99,
+          "description": "A very strong coffee"
+      }
+
+  ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
+    <script type="text/javascript" src="util.js" ></script>
+    <title>Tea Shop</title>
+</head>
+<body>
+    <section id="header" >
+        <!-- code here -->
+    </section>
+    <section id="actions">
+        <select id="sortMenu">
+            <option value="price" >Sort By Price</option>
+            <option value="name" >Sort By Name</option>
+        </select>
+        <select id="filterByPriceMenu" >
+            <option value="-1">No Price Filter</option>
+            <option value="0" >Filter by price: 0-20</option>
+            <option value="1" >Filter by price: 20-50</option>
+            <option value="2" >Filter by price: 50-100</option>
+        </select>
+    </section>
+    <label>
+        Search For Item
+        <input type="text" id="search-input" /> 
+    </label>
+    <section id="products-section">
+        <div id="products-container">
+            <!-- code here -->
+        </div>
+    </section>
+
+    <section id="checkout-section">
+        <!-- TBD -->
+    </section>
+
+    <section id="footer" >
+        <!-- TBD -->
+    </section>
+</body>
+<script src="script.js" ></script>
+</html>
